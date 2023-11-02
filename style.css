@@ -20,7 +20,7 @@
 
 body {
     background-color: rgb(236, 231, 231);
-    display: flex;    
+     
 }
 
 .containers {
@@ -29,7 +29,7 @@ body {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    margin: 110px auto;
+    margin: 100px auto;
     background-color: white;
     border-radius: 20px;
     box-shadow: 5px 5px 12px hsl(239, 100%, 84%);
@@ -254,4 +254,16 @@ body {
 
 .botao a:hover {
     background: linear-gradient(hsl(252, 100%, 67%) 5%, hsl(241, 81%, 54%) 100%);
+}
+
+footer {
+    color: black;
+    text-align: center;
+    font-family: Grotesq-Bold;
+    position: relative;
+    bottom: 30px;
+}
+
+footer a {
+    text-decoration: none;
 }
