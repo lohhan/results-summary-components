@@ -1,0 +1,257 @@
+@font-face {
+    font-family: Grotesq-Bold;
+    src: url(assets/fonts/static/HankenGrotesk-Bold.ttf);
+}
+
+@font-face {
+    font-family: Grotesq-ExtraBold;
+    src: url(assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Grotesq-Medium;
+    src: url(assets/fonts/static/HankenGrotesk-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(236, 231, 231);
+    display: flex;    
+}
+
+.containers {
+    width: 650px;
+    height: 450px;  
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 110px auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 12px hsl(239, 100%, 84%);
+}
+
+/*CONTAINER AZUL*/
+
+.container-azul {
+    width: 300px;
+    height: 450px;
+    background: linear-gradient(hsl(252, 100%, 67%) 5%, hsl(241, 81%, 54%) 100%);
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.your-result {
+    font-family: Grotesq-Bold;
+    color: white;
+    opacity: 0.8;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;   
+    margin-top: 35px;
+}
+
+.circulo {
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1) 20%, hsla(241, 72%, 46%, 0) 100%);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 30px auto;
+    width: 180px;
+    height: 180px;
+}
+
+.num-76 {
+    font-family: Grotesq-ExtraBold;
+    color: white;
+    font-size: 70px;
+}
+
+.num-of100 {
+    font-family: Grotesq-Bold;
+    color: white;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.text span {
+    font-family: Grotesq-Bold;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: 15px;
+}
+
+.text-describe {
+    font-family: Grotesq-Bold;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    max-width: 220px;
+    opacity: 0.8;
+}
+
+/*CONTAINER BRANCO*/
+
+.container-summary {
+    text-align: start;
+    margin: auto;
+    position: relative;
+    bottom: 25px;   
+}
+
+.text-summary {
+    font-family: Grotesq-Bold;
+    font-size: 20px;
+}
+
+.container-reaction {
+    display: flex;
+    margin-top: 20px;
+    background-color: hsl(0, 100%, 67%, 0.3);
+    font-family: Grotesq-Medium;
+    border-radius: 10px;
+    color: rgba(255, 0, 0, 0.829);
+}
+
+.container-reaction img {
+    position: relative;
+    left: 10px;
+    margin-right: 5px;
+}
+
+.text-reaction  {
+    padding: 15px;
+    padding-right: 120px;
+    opacity: 1;
+}
+
+.text-number {
+    margin: auto;
+    position: relative;
+    right: 10px;
+}
+
+.container-memory {
+    display: flex;
+    margin-top: 10px;
+    background-color: hsl(39, 100%, 56%, 0.3);
+    font-family: Grotesq-Medium;
+    border-radius: 10px;
+    color: rgb(228, 206, 8);
+}
+
+.container-memory img {
+    position: relative;
+    left: 10px;
+    margin-right: 5px;
+}
+
+.text-memory {
+    padding: 15px;
+    padding-right: 120px;
+    opacity: 1;
+}
+
+.text-number {
+    margin: auto;   
+    position: relative;
+    right: 10px;
+}
+
+.container-verbal {
+    display: flex;
+    margin-top: 10px;
+    background-color: hsl(166, 100%, 37%, 0.3);
+    font-family: Grotesq-Medium;
+    border-radius: 10px;
+    color: green;
+}
+
+.container-verbal img {
+    position: relative;
+    left: 10px;
+    margin-right: 5px;
+}
+
+.text-verbal {
+    padding: 15px;
+    padding-right: 135px;
+    opacity: 1;
+}
+
+.text-number {
+    margin: auto;   
+    position: relative;
+    right: 10px;
+}
+
+.container-visual {
+    display: flex;
+    margin-top: 10px;
+    background-color: hsl(234, 85%, 45%, 0.3);
+    font-family: Grotesq-Medium;
+    border-radius: 10px;
+    color: blue;
+}
+
+.container-visual img {
+    position: relative;
+    left: 10px;
+    margin-right: 5px;
+}
+
+.text-visual {
+    padding: 15px;
+    padding-right: 135px;
+    opacity: 1;
+}
+
+.text-number {
+    margin: auto;   
+    position: relative;
+    right: 10px;
+    color: hsl(224, 30%, 27%, 0.5);
+}
+
+.text-number span {
+    color: hsl(224, 30%, 27%);
+    font-family: Grotesq-Bold;
+    position: relative;
+    right: 5px;
+}
+
+/*BOTÃO*/
+
+.botao a{
+    text-decoration: none;
+    font-family: Grotesq-Bold;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 35px;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: hsl(224, 30%, 27%);
+}
+
+.botao a:hover {
+    background: linear-gradient(hsl(252, 100%, 67%) 5%, hsl(241, 81%, 54%) 100%);
+}
